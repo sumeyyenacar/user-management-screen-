@@ -6,11 +6,13 @@ The user management screen should allow users to:
 * Search for users by name or email address
 * Create new users
 * Edit existing users
-* Delete users
+* Disable Users
 
 ## UI Components
 
 The user management screen should have the following UI components:
+
+<img src="./MS-user-management.png/MS-user-management.png" alt="Resim3">
 
 * **Header:** The header should contain the title of the screen, the user's name, and the user's profile picture.
 * **Table:** The table should display a list of all users. The table should show the following information for each user:
