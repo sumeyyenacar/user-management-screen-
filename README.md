@@ -13,15 +13,23 @@ The user management screen should allow users to:
 The user management screen should have the following UI components:
 
 * **Header:** The header should contain the title of the screen, the user's name, and the user's profile picture.
-* **Search bar:** The search bar should allow users to search for users by name or email address.
 * **Table:** The table should display a list of all users. The table should show the following information for each user:
+The screen should be evenly divided into two. There should be a table on the left side of the screen where the information about the added users can be displayed.A filtering option should be added for each section.
     * Name
-    * Email address
-    * Role
-    * Department
-    * Manager
+    * User Name
+    * Email
+    * Enabled
+ 
+* **New User:** A new user can be added or user details can be edited.
+    * Name (text input)
+    * Display Name (text input)
+    * Email (text input)
+    * User Roles (Guest, Admin, Super Admin) (dropdown select)
+    * Enabled (tick box)
 * **Buttons:** Buttons for creating new users, editing existing users, and deleting users.
-
+   * There is a blue add "new user" button at the top left of the page.
+   * In the upper right part of the page, the "save user" button is used to save the changes made.
+  
 ## Behavior
 
 When the user management screen is first loaded, it should show a list of all users. The user can then search for users by name or email address. If the user finds the user they are looking for, they can click on the user's name to view their details.
