@@ -12,8 +12,6 @@ The user management screen should allow users to:
 
 The user management screen should have the following UI components:
 
-<img src="./MS-user-management.png/MS-user-management.png" alt="Resim3">
-
 * **Header:** The header should contain the title of the screen, the user's name, and the user's profile picture.
 * **Table:** The table should display a list of all users. The table should show the following information for each user:
 The screen should be evenly divided into two. There should be a table on the left side of the screen where the information about the added users can be displayed.A filtering option should be added for each section.
